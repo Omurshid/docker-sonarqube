@@ -17,8 +17,8 @@ node {
         }
     } 
 
-    // We're going to build and deploy the Sonarqube version 7.1
-    dir('7.1'){
+    // We're going to build and deploy the Sonarqube version 6.75 
+    dir('6.7.5'){
         stage('Build Docker') {
             ansiColor('xterm') {
                 retry(3) {
